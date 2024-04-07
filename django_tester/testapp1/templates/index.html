@@ -23,23 +23,21 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-       <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top header">
+       <nav class="navbar navbar-expand-lg navbar-light bg-white header fixed-top">
         <a href="/"><img alt="[TITLEIMAGE]" class= "navbar-brand mainimg1" src="{% static 'image/TITLEIMAGE.png' %}"></a>
-       
-        <div class="nav-item dropdown">
-            <ul class="navbar-nav">
-            <button class="navbar-toggler dropdowntoggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon nav-link "></span>
-              </button>
-
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="/error">Canal Express</a></li>
-                <li><a class="dropdown-item" href="/error">Canal Mount</a></li>
-                <li><a class="dropdown-item" href="/error">Canal Study</a></li>
-            </ul>
-        </ul>
+        <div class="dropdown">
+          <a class="btn btn-secondary dropdown-toggle"
+          href="#" role="button" id="dropdownMenuLink"
+          data-toggle="dropdowm" aria-haspopup="true"
+          >
+        DropDownLINK
+        </a>
         </div>
-        </li>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" href="#">KorehaMenu</a>
+          <a class="dropdown-item" href="#">KorehaMenuNoSpare</a>
+          <a class="dropdown-item" href="#">KorehaMenuTo SpareSSU</a>
+        </div>
        </nav>
         <!-- カルーセル　セットアップ-->
         <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
@@ -109,6 +107,7 @@
            <div class="container findcc"></div>
            <div class="container findcc"></div>
           </div>
+          
         <h1>へい</h1>
         <h1>へい</h1>
         <h1>へい</h1>
