@@ -1,0 +1,62 @@
+.header{
+ border-bottom:5px solid #0f62af;
+ background-color:white;
+}
+a {
+    color: #999;
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+p{
+    text-align: center;
+}
+.carousel{
+    margin-top:10rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 55px 55px 55px 55px;
+    width:70%;
+    overflow:hidden;
+
+}
+.findcontog{
+    border:solid 1px black;
+    margin-top:10rem;
+    height:5rem;
+    width:15rem;
+    background-color:#246badc2;
+}
+.findcon{
+    background-color:#0f62af;
+    height:30rem;
+}
+.footer{
+padding:2rem;
+font-size:15px;
+color:#999;
+background:#fff;
+border-top:1px solid #e5e7eb;
+}
+.footer a:hover{
+    color:#000;
+
+}
+body{
+    position:relative;
+    margin:0.1vm;
+}
+.m{
+    color:black;
+
+}
+img.mainimg1{
+    position:relative;
+    width:200px;
+}
+div.container{
+    display:flex;
+    flex-direction: row;
+}
