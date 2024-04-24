@@ -21,5 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include("testapp1.urls"),name="home"),
     path('error', include("testapp1.urls")),
-    path('userform', include("accounts.urls"),name="userform")
+    path('userform/', include("accounts.urls"), name="userform")
 ]
