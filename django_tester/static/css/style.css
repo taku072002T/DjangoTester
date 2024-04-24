@@ -1,6 +1,9 @@
+.headerbox{
+    background-color:white;
+}
 .header{
+ border-top:5px solid #0f62af;
  border-bottom:5px solid #0f62af;
- background-color:white;
 }
 a {
     color: #999;
@@ -22,16 +25,23 @@ p{
     overflow:hidden;
 
 }
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    filter: invert(1);
+}
+.carousel-image{
+filter:brightness(70%);
+
+}
 .findcontog{
     border:solid 1px black;
     margin-top:10rem;
-    height:5rem;
+    height:3rem;
     width:15rem;
     background-color:#246badc2;
 }
 .findcon{
     background-color:#0f62af;
-    height:30rem;
+    height:20rem;
 }
 .footer{
 padding:2rem;
@@ -54,7 +64,7 @@ body{
 }
 img.mainimg1{
     position:relative;
-    width:200px;
+    width:100px;
 }
 div.container{
     display:flex;

@@ -12,13 +12,13 @@ from .forms import SignupForm
 
 class SignupView(CreateView):
     form_class = SignupForm
-    template_name = "accounts/signup.html"
-    success_url = reverse_lazy("")
+    template_name = "register.html"
+    success_url = reverse_lazy("home:home")
 
-    def form_valid(self,form):
+    def form_valid(self, form):
         response = super().form_valid(form)
         username = form.cleaned_data["username"]
         password = form.cleaned_data["password1"]
-        user = authenticate(self.request,username=username, password=password)
+        user = authenticate(self.request, username=username, password=password)
         login(self.request, user)
         return response
